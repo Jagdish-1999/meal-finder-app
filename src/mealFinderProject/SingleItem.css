@@ -1,0 +1,47 @@
+.image-container{
+    position: relative;
+    height: 24vh;
+    width: 12vw;
+    margin: .5rem;
+    border-radius: .2rem;
+}
+.image-container:hover {
+    box-shadow: 0 0 10px 2px white;
+    transition:  box-shadow .5s;
+}
+
+.img {
+    box-sizing: border-box;
+    width: 12vw;
+    height: 24vh;
+    border: 5px solid white;
+    border-radius: .2rem;
+
+}
+
+.hide-item-name {
+    visibility: hidden;
+    transition: box-shadow .3s  ease-in-out;
+}
+
+.show-item-name {
+    visibility: visible;
+    display:flex;
+    pointer-events: none;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 400px 1px black inset;
+    box-shadow: 0 0 100px 10px black inset,0 0 200px 2px black;
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 24vh;
+    width: 12vw;
+    text-align: center;
+    font-size: 1.4rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    transition: box-shadow .3s  ease-in-out;
+    border-radius: .2rem;
+}
