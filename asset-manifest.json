@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/meal-finder-app/static/css/main.2a065b51.css",
+    "main.js": "/meal-finder-app/static/js/main.c05abc41.js",
+    "index.html": "/meal-finder-app/index.html",
+    "main.2a065b51.css.map": "/meal-finder-app/static/css/main.2a065b51.css.map",
+    "main.c05abc41.js.map": "/meal-finder-app/static/js/main.c05abc41.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2a065b51.css",
+    "static/js/main.c05abc41.js"
+  ]
+}
